@@ -80,3 +80,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit from msm8996-common
 $(call inherit-product, device/xiaomi/msm8996-common/msm8996.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
